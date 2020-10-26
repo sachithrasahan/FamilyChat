@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Family Chat</title>
+  <link  href="/style.css"  type="text/css"  rel="stylesheet"/>
+  <script defer src="http://192.168.8.103:3000/socket.io/socket.io.js"></script>
+  <script defer src="/script.js"></script>
+  <script defer src="/server.js"></script>
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div  class="chat_window">
+    <div  class="top_menu">
+    <div  class="buttons">
+    <div  class="button close"></div>
+    <div  class="button minimize"></div>
+    <div  class="button maximize"></div>
+  </div>
+  <div  class="title">Family Chat</div>
+  <div class="messages" id="message-container"></div>
+  <div  class="bottom_wrapper clearfix">
+    <form id="send-container">
+      <div  class="message_input_wrapper">
+        <input class="message_input" type="text" id="message-input" placeholder="Type your message here...">
+      </div>
+      <button class="send_message" type="submit" id="send-button">Send</button>
+    </form>
+  </div>
+</body>
+</html>

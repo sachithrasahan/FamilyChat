@@ -1,0 +1,17 @@
+{
+  "name": "familychat",
+  "version": "1.0.0",
+  "description": "Realtime chat application ",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "Sachithra Sahan Samarasinghe",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
